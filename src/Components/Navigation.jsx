@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
   Collapse,
   Navbar,
@@ -40,8 +41,8 @@ const Navigation = (props) => {
                 Other Resources
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>
-                  Shift.ms
+                <DropdownItem tag={Link} to="/shift">
+                  Shift.MS
                 </DropdownItem>
                 <DropdownItem>
                   National MS Society

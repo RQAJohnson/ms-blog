@@ -4,6 +4,8 @@ import Contact from './Components/Contact/Contact';
 import Symptoms from './Components/Symptoms/Symptoms';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
+import Shift from './Components/External/Shift';
+import MSTrust from './Components/External/MSTrust';
 
 
 function App() {
@@ -28,9 +30,15 @@ function App() {
      </Route>
      <Route path="/symptoms">
       <Symptoms/>
-  </Route>
+    </Route>
      <Route path="/home">
       <Home/>
+     </Route>
+     <Route path="/shift">
+      <Shift/>
+     </Route>
+     <Route path="/mstrust">
+      <MSTrust/>
      </Route>
      </Switch>
      </Router>
