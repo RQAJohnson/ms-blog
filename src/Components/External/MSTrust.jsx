@@ -1,7 +1,7 @@
 
 const MSTrust = (props) => {
     return (
-        <h1>external site here</h1>
+        <h1>MS Trust site will go here</h1>
     );
 }
 

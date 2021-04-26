@@ -6,6 +6,9 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Shift from './Components/External/Shift';
 import MSTrust from './Components/External/MSTrust';
+import MSSociety from './Components/External/MSSociety';
+import NHSWebsite from './Components/External/NHSWebsite';
+import Medication from './Components/Medication/Medication';
 
 
 function App() {
@@ -22,6 +25,9 @@ function App() {
      <Route path="/" exact>
       <Home/>
      </Route>
+     <Route path="/home">
+      <Home/>
+     </Route>
      <Route path="/about">
       <About/>
      </Route>
@@ -31,14 +37,20 @@ function App() {
      <Route path="/symptoms">
       <Symptoms/>
     </Route>
-     <Route path="/home">
-      <Home/>
-     </Route>
+    <Route path="/medication">
+      <Medication/>
+    </Route>
      <Route path="/shift">
       <Shift/>
      </Route>
+     <Route path="/mssociety">
+      <MSSociety/>
+     </Route>
      <Route path="/mstrust">
       <MSTrust/>
+     </Route>
+     <Route path="/nhswebsite">
+      <NHSWebsite/>
      </Route>
      </Switch>
      </Router>

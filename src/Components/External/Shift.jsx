@@ -1,7 +1,7 @@
 
 const Shift = (props) => {
     return (
-        <h1>external site here</h1>
+        <h1>Shift.ms website will go here</h1>
     );
 }
 

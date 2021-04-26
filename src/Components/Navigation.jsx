@@ -44,14 +44,14 @@ const Navigation = (props) => {
                 <DropdownItem tag={Link} to="/shift">
                   Shift.MS
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem tag={Link} to="/mssociety">
                   National MS Society
                 </DropdownItem>
                 <DropdownItem divider />
-                <DropdownItem>
+                <DropdownItem tag={Link} to="/mstrust">
                   MS Trust
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem tag={Link} to="/nhswebsite">
                   NHS Website
                 </DropdownItem>
               </DropdownMenu>
