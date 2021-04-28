@@ -127,10 +127,9 @@ const Home = (props) => {
     <br></br>
 
     <h4 className="text-black"><u>How Can it be Treated?</u></h4>
-      <p className="text-black">The Deluxe Screens (Directors Box) are made up of no more than 50 seats with high quality recliners;
-      Bang and Olufsen surround sound system; 8k screen resolution; comfortable cushions; footstalls and side lamps 
-      positioned after every other chair. Where you as the consumer are able to take charge of how bright or dark you want the 
-      surrounding area to be.<br></br>
+      <p className="text-black">With the use of DMDs MS is something which doesn't greatly affect someones daily lives these can be found
+      in the form of injections; pills or IV drips. Feel free to navigate through the Medication page to learn more about the 
+      different types of (<Link to="/medication">DMDs</Link>) and the affects that they could have on the body.<br></br>
       <br></br>
 
       <i>Some Things to Enjoy:</i>
