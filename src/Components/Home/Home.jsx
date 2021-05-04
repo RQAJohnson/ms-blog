@@ -135,7 +135,7 @@ const Home = (props) => {
       secondary progressive MS who have relapses.Many treatments. The therapies aiming to treat progressive MS are currently being researched<br></br>
       <br></br>
 
-      <i>Some Examples Below</i>
+      <i>Some Examples Below:</i>
       <dl>
         <dt>Injectable Medications</dt>
         <dd>Rebif</dd>
