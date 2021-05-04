@@ -86,9 +86,10 @@ const Home = (props) => {
     <h4 className="text-black"><u>Different Types</u></h4>
       <p className="text-black">There are several types of MS which have been listed below. As you direct yourself
       throughout the site, you will become more familiar with how the different disease modifying drugs (<Link to="/medication">DMDs</Link>)
-      have an affect on each type of MS. Please see below a list of the different types.<br></br>
+      have an affect on each type of MS. <br></br>
       <br></br>
 
+      <i>The varying types of MS</i>
       <li>Clinically Isolated Syndrome (CIS)</li>
       <li>Relapsing and Remitting (RRMS)</li>
       <li>Secondary Progressive MS (SPMS)</li>
@@ -103,15 +104,15 @@ const Home = (props) => {
         <br></br>
 
       <h4 className="text-black"><u>Who Can I  Talk to?</u></h4>
-      <p className="text-black">The Standard Screens are open to all who wish to enjoy a fun family day out. 
-      The rooms are made up of around 200 seats; Bang and Olufsen surround sound system and 4k screen resolution. 
-      For that all important viewing experience!<br></br>
+      <p className="text-black">Suffering from MS or kowing someone (family memeber or friend) who his currently going 
+      through a recent diagnosis can leave you feeling helpless and a bit loss. Not to worry. There are several websites and
+      blog pages which contain a vast amount of information that you can look to in order to gain a better understanding on 
+      how best to manage your symptoms like severe fatigue, loss of feeling in your limbs and vision problems as well as helping you to 
+      get back to feeling like yourself and handling every day tasks.
+      <br></br>
       <br></br>
 
-      <i>Some Things to Enjoy:</i>
-      <li>Snacks(including candyfloss and slushies)</li>
-      <li>Arcade Games</li>
-      <li>VR Experiences (3D)</li>
+      <i>Feel free to look through the External resources sites to find out more about what the different sites have to offer.</i>
     </p> 
     <br></br>
     <br></br>
@@ -129,14 +130,25 @@ const Home = (props) => {
     <h4 className="text-black"><u>How Can it be Treated?</u></h4>
       <p className="text-black">With the use of DMDs MS is something which doesn't greatly affect someones daily lives these can be found
       in the form of injections; pills or IV drips. Feel free to navigate through the Medication page to learn more about the 
-      different types of (<Link to="/medication">DMDs</Link>) and the affects that they could have on the body.<br></br>
+      different types of (<Link to="/medication">DMDs</Link>) and the affects that they could have on the body. Most of the treatements 
+      and therapies available for those who suffer from a type of MS called relapsing remitting MS, and in those with a type called 
+      secondary progressive MS who have relapses.Many treatments. The therapies aiming to treat progressive MS are currently being researched<br></br>
       <br></br>
 
-      <i>Some Things to Enjoy:</i>
-      <li>Fine dining and cocktails within the lounge area</li>
-      <li>IMAX Screen</li>
-      <li><Link to="/NewReleases">Newly Released</Link> Previews</li>
-      <li>Ability to rent out screens for large social gatherings</li>
+      <i>Some Examples Below</i>
+      <dl>
+        <dt>Injectable Medications</dt>
+        <dd>Rebif</dd>
+        <dd>Copaxone</dd>
+        <dd>Betaseron</dd>
+        <dt>Oral Medications</dt>
+        <dd>Tecfidera</dd>
+        <dd>Mavenclad</dd>
+        <dd>Vumerity</dd>
+        <dt>Infused Medications</dt>
+        <dd>Lemtrada</dd>
+        <dd>Novantrone</dd>
+      </dl>
       </p>
       <br></br>
       <br></br>
