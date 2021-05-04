@@ -9,7 +9,8 @@ const About = (props) => {
     <h1 className="text-black text-center display-4">Who am I?</h1>
 
     <div className="container" align="center" >
-    <p className="lead text-center text-black pt-2 mb-5">vghguohfgbaifb</p>
+    <p className="lead text-center text-black pt-2 mb-5">A big dreamer who loves all things creative from learning about AI to watching shows 
+    like 'Black Mirror' and 'Alice in Borderland'.</p>
         
         <div class="col-md-3 mb-4">
             <div class="view z-depth-1 mb-4">
@@ -18,7 +19,7 @@ const About = (props) => {
                 </div>
                 <h4 className="text-black">Rianna Johnson</h4>
                 <medium class="text-black">Developer</medium>
-                <p class="mt-3 text-black">Tom Hanks's brother (Jim Hanks) voiced Sheriff Woody in Toy Story when he was too busy.</p>
+                <p class="mt-3 text-black">No, I'm not drunk. I have MS. -anon</p>
                 <ul class="list-unstyled d-flex justify-content-center mt-3 mb-0 text-muted">
                     <li><a class="nav-link" href="https://github.com/RQAJohnson" target="_blank">
                         <Github className="mx-3"color="black" size={40}/></a></li>
