@@ -1,6 +1,11 @@
 import { Globe } from "react-bootstrap-icons";
+import {useState} from 'react';
 
 const Contact = (props) => {
+
+  const [subject, setSubject] = useState('')
+  const [message, setMessage] = useState('')
+
     return (
         <>
         <div class="container my-5">
@@ -19,27 +24,29 @@ const Contact = (props) => {
 
                 </div> */}
 
-                <div class="col-md-12 mb-4">              
+                {/* <div class="col-md-12 mb-4">              
                     <input type="email" id="email" class="form-control" placeholder="Email"/>
-                </div>
+                </div> */}
 
             </div>
 
           <div class="row">
                 <div class="col-md-12 mb-4">
-                    <input type="text" id="subject" class="form-control" placeholder="Subject"/>
-
+                    <input type="text" id="subject" class="form-control" placeholder="Subject" 
+                    value={subject} onChange={({target}) => setSubject(target.value)} required/>
                 </div>
           </div>
 
           <div class="row">
             <div class="col-md-12">
               <div class="form-group mb-4">
-                <textarea class="form-control rounded" id="message" rows="3" placeholder="How can we help?"></textarea>
+                <textarea class="form-control rounded" id="message" rows="3" placeholder="How can we help?"
+                value={message}onChange={({target})=>setMessage(target.value)} required></textarea>
               </div>
 
               <div class="text-center">
-                <button type="submit" class="btn btn-info btn-md">Submit</button>
+                <button type="submit" class="btn btn-outline-primary"><a href = 
+                {"mailto: Riri20162021@outlook.com?subject=" + subject + "&body=" + message}>Submit</a></button>
               </div>
 
         </div>
