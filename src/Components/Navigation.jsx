@@ -36,6 +36,9 @@ const Navigation = (props) => {
             <NavItem>
               <NavLink href="/medication">Medication</NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href="/contact">Contact Us</NavLink>
+            </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Other Resources
