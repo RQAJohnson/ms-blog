@@ -18,18 +18,6 @@ const Contact = (props) => {
 
                     <form class="mb-4 mx-md-5" action="">
 
-            <div class="row">
-                {/* <div class="col-md-6 mb-4">
-                    <input type="text" id="name" class="form-control" placeholder="Name"/>
-
-                </div> */}
-
-                {/* <div class="col-md-12 mb-4">              
-                    <input type="email" id="email" class="form-control" placeholder="Email"/>
-                </div> */}
-
-            </div>
-
           <div class="row">
                 <div class="col-md-12 mb-4">
                     <input type="text" id="subject" class="form-control" placeholder="Subject" 
