@@ -1,4 +1,4 @@
-
+import ReactPlayer from 'react-player'
 
 const Symptoms = (props) => {
     return (
@@ -69,11 +69,12 @@ const Symptoms = (props) => {
 
   <div class="row">
       <div class="col-md-8 mx-auto mb-4">
+      <ReactPlayer url='https://www.youtube.com/watch?v=A8ZK4VWmbGc' />
 
-             <img class="rounded img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(29).jpg" alt="Video title"/>
+             {/* <img class="rounded img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(29).jpg" alt="Video title"/>
          <div class="mask flex-center rgba-white-light">
               <a id="play" class="btn-floating btn-danger btn-lg" data-toggle="modal" data-target="#modal1"><i class="fas fa-play"></i></a>
-             </div>
+             </div> */}
           
 
       </div>
