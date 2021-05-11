@@ -138,16 +138,16 @@ const Home = (props) => {
       <i>Some Examples Below:</i>
       <dl>
         <dt>Injectable Medications</dt>
-        <dd>Rebif</dd>
-        <dd>Copaxone</dd>
-        <dd>Betaseron</dd>
+        <dd>- Rebif</dd>
+        <dd>- Copaxone</dd>
+        <dd>- Betaseron</dd>
         <dt>Oral Medications</dt>
-        <dd>Tecfidera</dd>
-        <dd>Mavenclad</dd>
-        <dd>Vumerity</dd>
+        <dd>- Tecfidera</dd>
+        <dd>- Mavenclad</dd>
+        <dd>- Vumerity</dd>
         <dt>Infused Medications</dt>
-        <dd>Lemtrada</dd>
-        <dd>Novantrone</dd>
+        <dd>- Lemtrada</dd>
+        <dd>- Novantrone</dd>
       </dl>
       </p>
       <br></br>
