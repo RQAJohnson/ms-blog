@@ -8,15 +8,11 @@ const Symptoms = (props) => {
     <br></br>
     <br></br>
     <h1 className="text-black text-center display-4">My Leg Hurts...</h1>
-    {/* <div className="container" align="center">
-        <p className="lead text-center text-black pt-2 mb-5"> What this means for me? | Diagnosis | How can it be treated?
-        </p>
-    </div> */}
-
+    
     <div class="container mt-5">
   <section class="text-center">
 
-    <h3 class="font-weight-bold mb-5">Recent Blog Posts</h3>
+    <h3 class="font-weight-bold mb-5">Signs & Symptoms</h3>
 
     <div class="row">
 
