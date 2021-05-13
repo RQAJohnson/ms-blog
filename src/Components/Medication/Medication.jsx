@@ -13,7 +13,8 @@ const Medication = (props) => {
         
         <div class="row" className="container" align="center" text="black">
       <div class="col-md-8 mx-auto mb-4">
-      <ReactPlayer url='https://www.youtube.com/watch?v=8exiUQAiw3w' />        
+      <ReactPlayer url='https://www.youtube.com/watch?v=8exiUQAiw3w' 
+      controls={true}/>        
 
       </div>
       <hr class="mt-1 mb-1"/>

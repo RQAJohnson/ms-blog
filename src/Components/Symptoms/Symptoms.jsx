@@ -100,7 +100,8 @@ const Symptoms = (props) => {
 
   <div class="row" className="container" align="center">
       <div class="col-md-8 mx-auto mb-4">
-      <ReactPlayer url='https://www.youtube.com/watch?v=A8ZK4VWmbGc' />        
+      <ReactPlayer url='https://www.youtube.com/watch?v=A8ZK4VWmbGc' 
+      controls={true}/>        
 
       </div>
     </div>
