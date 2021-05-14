@@ -28,6 +28,7 @@ const Shift = (props) => {
             they have; others find comfort in the knowledge that are individuals like themselves are also going through something similar 
             within their community. 
         </p>
+        <br></br>
         </div>
 
 

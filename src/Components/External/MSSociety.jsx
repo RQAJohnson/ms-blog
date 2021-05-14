@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 
 const Society = (props) => {
     return (
@@ -20,6 +20,9 @@ const Society = (props) => {
                             diagnosis or are looking for ways to keep up with the most current data on medications; therapies and 
                             lifetsyle trends which may have an impact against the illness. 
                         </p>
+                        <br></br>
+                        <p>Fancy a look around checkout - <br></br>
+                            <Link to={{ pathname:"https://www.mssociety.org.uk/"}} target="MS Society">MS Society</Link></p>
                         </div>
                         </div>
                         </div>
