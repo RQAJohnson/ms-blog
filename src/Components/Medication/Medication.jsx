@@ -69,6 +69,7 @@ const Medication = (props) => {
             support in you in finding a treatment that makes you more comfortable and suits your comfort; lifesyle and medical needs. </p>
             <p>For further on MS treatments and therapies: <Link to={{ pathname:"https://www.healthline.com/health/multiple-sclerosis/drugs#injections-and-infusions"}} target="NHSwebsite"> Health Line</Link> 
             </p>
+            
 
     </div>            
         </>
