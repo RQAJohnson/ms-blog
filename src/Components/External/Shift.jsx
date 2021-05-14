@@ -1,5 +1,6 @@
 import ReactPlayer from 'react-player';
 import './Shift.css';
+import { Link } from 'react-router-dom';
 
 const Shift = (props) => {
     return (
@@ -29,6 +30,11 @@ const Shift = (props) => {
             within their community. 
         </p>
         <br></br>
+        <p>To Find Out More  
+            <br></br>
+            <Link to={{ pathname:"https://shift.ms/"}} target="Shift.ms">Click Here</Link>
+            </p>
+            <br></br>
         </div>
 
 

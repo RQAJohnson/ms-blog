@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 const MSTrust = (props) => {
     return (
@@ -14,11 +15,16 @@ const MSTrust = (props) => {
             From the moment of diagnosis to the day to day activities that may be negatively affected by the disease, the organisation
             is there to support a person in any way they can.
         </p>
-        <br></br>
         <p>- Funding specialist MS nurses</p>
         <p>- Providing trusted information</p>
         <p>- Answering questions</p>
         <br></br>
+        
+        <p>Fancy a look around checkout 
+            <br></br>
+            <Link to={{ pathname:"https://mstrust.org.uk/what-we-do/about-ms-trust"}} target="MS TRUST">MS Trust</Link>
+            </p>
+            <br></br>
 
 </div>
         </>
