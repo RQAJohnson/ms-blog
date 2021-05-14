@@ -1,7 +1,10 @@
 
 const Website = (props) => {
     return (
-        <h1>NHS Website link will go here</h1>
+        <>
+        <br></br>
+        <h1 className="text-black text-center display-4">MS Trust</h1>
+        </>
     );
 }
 
