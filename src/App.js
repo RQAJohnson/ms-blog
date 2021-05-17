@@ -9,6 +9,7 @@ import MSTrust from './Components/External/MSTrust';
 import MSSociety from './Components/External/MSSociety';
 import NHSWebsite from './Components/External/NHSWebsite';
 import Medication from './Components/Medication/Medication';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
       <NHSWebsite/>
      </Route>
      </Switch>
+     <Footer/>
      </Router>
      
     </div>
